@@ -172,6 +172,11 @@ $env:AURIG_BUILD_DEBUG = "1"; aurig-build --cfg config/project.yaml synth
 `AURIG_BUILD_PROJECT_ROOT=<path>` overrides the project root derivation
 (useful for invocations from outside the standard project layout).
 
+## Windows Tcl
+On Windows, install Tcl with:
+- `winget install Tcl.Tcl`
+- Or install Tcl from Magicsplat.
+
 ## Requirements
 
 - Python 3.10 or later
